@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.banner-arriba {
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.texto-derecha {
+    display: flex;
+    gap: 15px;
+}
+
+.selector-banner {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-navegacion {
+    background-color: #F0A83E;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img {
+    height: 20px;
+}
+
+.negro {
+    color: #3C2313;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.blanco {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.opciones-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
+}
+
+.opciones-menu ul li {
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.huellita-icono {
+    height: 14px;
+}
+
+.bloque-principal {
+    width: 100%;
+    height: auto;
+    background-image: url('/img/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos-encima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    gap: 12px;
+    text-align: center;
+}
+
+.cartel-blanco {
+    color: #3C2313;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.subtitulo-banner {
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.boton-comederos {
+    background-color: #F0A83E;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.titulo-seccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.huella-grande {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.titulo-seccion h1 {
+    color: #3C2313;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.titulo-seccion h3 {
+    color: #8A8787;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.fila-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+.tarjeta {
+    width: 100%;
+    border-radius: 4px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.foto-producto {
+    height: 140px;
+    margin-bottom: 25px;
+}
+
+.tarjeta h2 {
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.tarjeta h4 {
+    color: #F0A83E;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.formulario h2 {
+    color: #3C2313;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 20px;
+}
+
+form input {
+    width: 100%;
+    background-color: #3C2313;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    color: white;
+    font-size: 13px;
+}
+
+form input::placeholder {
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.resetear,
+.enviar {
+    gap: 15px;
+    margin-top: 10px;
+    border-radius: 25px;
+    align-items: center;
+    color: white;
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.resetear {
+    background-color: #A09E9E;
+}  
+
+
+.enviar {
+    background-color: #F0A83E;
+}
+
+.franja-suscripcion {
+    background-color: #F0A83E;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.suscripcion-texto {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    margin-right: 750px;
+}
+
+.suscripcion-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.suscripcion {
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 16px;
+    width: 250px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #2D1A0E;
+    color: white;
+    padding: 8px;
+    font-size: 9px;
+    width: 70px;
+}
+
+
+footer {
+    background-color: #2D1A0E;
+    color: white;
+    padding: 40px 20px 15px;
+}
+
+.contenedor-pie {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.datos-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.linea-dato {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.iconos {
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+.logo-pie {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pie-naranja {
+    color: #F0A83E;
+}
+
+.pie-blanco {
+    color: white;
+}
+
+.derechos {
+    text-align: center;
+    font-size: 11px;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    
+}
+
+/*Pseudo elementos*/
+nav a::before {
+        font: var(--fa-font-solid);
+        content: '\f1b0';
+        margin-right: 10px;
+}
+
+nav a:hover{
+    font-size: 20px;
+    background-color: black;
+}
+
+button:hover {
+    background-color:aqua;
+    font-size: 10px;
+    padding: 10px;
+    color: black;
+}
+
+
+@media (min-width: 768px) {
+
+.banner-arriba {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 40px;
+}
+
+.menu-navegacion {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.opciones-menu ul {
+    flex-direction: row;
+    gap: 25px;
+}
+
+.bloque-principal {
+    height: 480px;
+    justify-content: flex-end;
+    padding-right: 8%;
+    background-position: center;
+}
+
+.textos-encima {
+    background-color: transparent;
+    align-items: flex-start;
+    width: auto;
+    padding: 0;
+    text-align: left;
+    }
+
+.cartel-blanco {
+    background-color: white;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.subtitulo-banner {
+    margin-left: 10px;
+}
+
+.boton-comederos {
+    margin-left: 10px;
+}
+
+.titulo-seccion h1 {
+    font-size: 34px;
+}
+
+.fila-productos {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto 50px;
+}
+
+.tarjeta {
+    flex: 1;
+}
+
+form {
+    width: 400px;
+}
+
+.franja-suscripcion {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+    
+.suscripcion-formulario {
+    flex-direction: row;
+    width: auto;
+}
+
+.contenedor-pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+    
+.datos-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: auto;
+    align-items: flex-start;
+}
+}
